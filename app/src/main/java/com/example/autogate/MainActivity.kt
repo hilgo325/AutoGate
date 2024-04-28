@@ -117,6 +117,7 @@ class MainActivity : AppCompatActivity() {
                 false
             }
         }
+
         callButton.setOnClickListener {
             if (ContextCompat.checkSelfPermission(
                     this,
@@ -222,7 +223,7 @@ class MainActivity : AppCompatActivity() {
                         findViewById<TextView>(R.id.distanceTextView).text = distanceText
 
                         // Check if the distance is less than or equal to 100 meters
-                        if (distance <= 600) {
+                        if (distance <= 150) {
                             // Initiate a phone call to the corresponding phone number
                             val phoneNumber = phoneNumberMap[selectedGate]
                             if (phoneNumber != null) {
