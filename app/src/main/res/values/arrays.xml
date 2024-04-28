@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Shallvim">Shallavim</string>
+    <string name="Nof_Ayalon">Nof Ayalon</string>
+
+    <string-array name="gates_array">
+        <item>@string/Shallvim</item>
+        <item>@string/Nof_Ayalon</item>
+    </string-array>
+</resources>
